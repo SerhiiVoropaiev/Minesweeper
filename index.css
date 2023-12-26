@@ -1,0 +1,110 @@
+@import "module.css";
+
+body {
+    background: var(--purple-80);
+}
+
+.headTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.bomb{
+    display: inline-block;
+
+}
+
+.headerTitleTxt{
+    display: inline-block;
+}
+
+h1 {
+    color: var(--purple-10);
+    font-size: 56px;
+}
+
+.titleDescription {
+    color: var(--purple-10);
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--purple-20);
+    padding-bottom: 20px;
+}
+
+.gameDifficultyTxt {
+    display: inline-block;
+    padding: 8px 12px;
+    background: var(--purple-60);
+    border-radius: 4px;
+    color: var(--light);
+    margin: 0 4px;
+    font-weight: 600;
+}
+
+.gameHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding: 0 16px;*/
+}
+
+.reset {
+    border-radius: 10px;
+    background: var(--purple-60);
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+.reset:hover {
+    background: var(--purple-10);
+}
+
+.score {
+    border-radius: 90px;
+    padding: 12px 24px;
+    background: var(--purple-60);
+}
+
+.scoreValue {
+    font-weight: 600;
+}
+
+.gameHeader {
+    margin-bottom: 24px;
+}
+
+.gameMap {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    padding: 16px 16px 24px 16px;
+    background: var(--purple-100);
+}
+
+.firstLine, .secondLine {
+    display: flex;
+    gap: 8px;
+}
+
+.gameElement {
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 100%;
+    height: 89px;
+    background: var(--purple-20);
+    box-shadow: 0px 8px 0px var(--purple-60);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameElement:hover {
+    background: var(--purple-10);
+    box-shadow: 0px 8px 0px var(--purple-20);
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
